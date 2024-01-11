@@ -4,34 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Ano Mishev">
-  <meta name="application-name" content="Capital Cities">
-  <meta name="keywords" content="CapitalCities">
+  <meta name="application-name" content="CapitalCity Game">
   <link rel="stylesheet" href="styles/style.css">
   <script src="scripts/script.js" defer></script>
-  <title>Главни градови!</title>
+  <title>Capital City Game</title>
 </head>
 <body>
-  <section class="game-container">
-    <div class="game">
-      <div class="game-main">
-        <div class="capital">
-          ?
-        </div>
-        <div class="capital-question">
-          <h2>КОЈ Е ГЛАВЕН ГРАД НА?</h2>
-        </div>
+  <div class="game">
+    <div class="game-ctr">
+    <section class="game-main">
+      <div class="game-correct">
+        
       </div>
-      <div class="game-stats">
-        <p class="answer">
-        <button class="btn reset">РЕСЕТ</button>
-        <input type="text" id="input" placeholder="ГЛАВЕН ГРАД">
-        <button class="btn submit">КЛИК</button>
-        </p>
-        <p id="attempts">ОБИДИ: 5</p>
-        <p id="score">ПОЕНИ: 0</p>
+      <div class="game-question">
+          
       </div>
+    </section>
+    <section class="game-footer">
+      <p class="input">
+        <input type="text" placeholder="Внеси главен град" id="input">
+      </p>
+      <p class="buttons">
+      <button type="submit" class="btn submit">Потврди</button>
+      <button type="reset" class="btn reset">Ресетирај</button>
+      <button class="btn skip">Прескокни</button>
+      </p>
+      <p class="after-submit">        
+      </p>
+      <div class="score">
+      <p class="highscore">
+      </p>
+      <p class="attempts">
+      </p>
+      </div>
+    </section>
     </div>
-  </section>
-    
+  </div>  
 </body>
 </html>
